@@ -4,6 +4,10 @@ const dictadoSchema = new mongoose.Schema({
     profesor: ObjectId(),
 
     materia: String,
+
+    tema: String,
+
+    Grupo: ObjectId(),
     
     fecha: String,
 
